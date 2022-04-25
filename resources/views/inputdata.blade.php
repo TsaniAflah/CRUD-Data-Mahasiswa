@@ -1,15 +1,14 @@
 @extends('template')
-@section('title', 'Input Data Mahasiswa')
+@section('title', 'Input Data Reservasi')
 
 @section('konten')
-    <form action="/mahasiswa/store" method ="post">
+<br><img src="/img/coffee1.png"; width="1000"></br>
+<img src="/img/coffee.png" style="float:left"; width="300">  
+<form action="/reservasi/store" method ="post">
         {{csrf_field()}}
-        Nama Lengkap <br>  <input type=text, name="nama", required="required"><br>
-        NIM <br> <input type=text, name="nim", required="required"><br>
-        Jurusan <br><input type=text, name="jurusan", required="required"><br>
-        Fakultas <br> <input type=text, name="fakultas", required="required"><br>
-        Universitas <br> <input type=text, name="universitas", required="required"><br>
-        <input type="submit" value="Simpan Data">
-    </form>
-
+        &nbsp; &nbsp; &nbsp;Atas nama &nbsp; &nbsp; &nbsp; <input type=text, name="Nama", required="required">&nbsp; &nbsp; &nbsp;Hotel  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input type=text, name="Hotel", required="required"></br><br>
+        &nbsp; &nbsp; &nbsp;Kedatangan &nbsp;&nbsp; &nbsp;<input type=text, name="Kedatangan", required="required">&nbsp; &nbsp; &nbsp;Keberangkatan&nbsp; &nbsp; &nbsp; <input type=text, name="Keberangkatan", required="required"></br><br>
+        &nbsp; &nbsp; &nbsp;Jenis &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input type=text, name="Jenis", required="required"></br><br>
+        <input type="submit" value="Pesan sekarang">
+</form>
 @endsection

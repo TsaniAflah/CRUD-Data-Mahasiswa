@@ -21,24 +21,16 @@ Route::get('/home', function () {
     return view('home');
 });
 
-Route::get('/Halo', function () {
-    return "Halo lab pbw B";
-});
-
 Route::get('/template', function () {
     return view('template');
 });
 
-Route::get('/kontak', function () {
-    return view('kontak');
-});
+Route::get('/tampildata', 'ReservasiController@readdata');
+Route::get('/tambahdata','ReservasiController@input');
+Route::post('/reservasi/store', 'ReservasiController@store');
 
-Route::get('/tampildata', 'MahasiswaController@readdata');
-Route::get('/tambahdata','MahasiswaController@input');
-Route::post('/mahasiswa/store', 'MahasiswaController@store');
+Route::get('/reservasi/edit/{Nama}', 'ReservasiController@edit');
+Route::post('/reservasi/update', 'ReservasiController@update');
 
-Route::get('/mahasiswa/edit/{nim}', 'MahasiswaController@edit');
-Route::post('/mahasiswa/update', 'MahasiswaController@update');
-
-Route::get('/mahasiswa/hapus/{nim}', 'MahasiswaController@hapus');
+Route::get('/reservasi/hapus/{Nama}', 'ReservasiController@hapus');
 
