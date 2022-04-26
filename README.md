@@ -1,64 +1,51 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
 
-## About Laravel
+## 𝐚𝐩𝐚 𝐢𝐭𝐮 <b><big>𝐓𝐈𝐊𝐄𝐓.𝐜𝐨𝐦?</big></b>
+<p align="center"><img width="50%" height="" src="./public/img/Logo.png"/></p>
+<p align="center">Ini adalah sebuah layanan terbaru bagi traveller yang mempermudah melakukan reservasi akomodasi favorit-mu!. TIKET.com merupakan sahabat yang akan membuatmu lupa akan ribetnya proses pemesanan tempat penginapan via online MAUPUN offline. Lihat juga tampilan aplikasi yang keren dan menarik yang semuanya akan anda temukan di TIKET.com solusi perjalanan anda!</p>
+<h4>𝐓𝐀𝐌𝐏𝐈𝐋𝐀𝐍</h4>
+<img width="80%" height="" src="./public/img/1r.png"/></a>
+<h4>𝐂𝐑𝐄𝐀𝐓𝐄</h4>
+<img width="80%" height="" src="./public/img/create.png"/></a>
+<h4>𝐑𝐄𝐀𝐃</h4>
+<img width="80%" height="" src="./public/img/read.png"/></a>
+<h4>𝐔𝐏𝐃𝐀𝐓𝐄 & 𝐃𝐄𝐋𝐄𝐓𝐄</h4>
+<img width="80%" height="" src="./public/img/update.png"/></a>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<h2>𝐅𝐫𝐞𝐪𝐮𝐞𝐧𝐭𝐥𝐲 𝐀𝐬𝐤𝐞𝐝 𝐐𝐮𝐞𝐬𝐭𝐢𝐨𝐧𝐬</h2>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+<details open>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+<summary>&nbsp;Apa saja fitur yang ditawarkan?</summary>
+<small>
+&nbsp;&nbsp;&nbsp;<img width="3%" src= https://img.icons8.com/emoji/48/000000/-emoji-admission.png> Melakukan reservasi dalam satu kali isi form </small>
+<small><br>
+&nbsp;&nbsp;&nbsp;<img width="3%" src= https://img.icons8.com/emoji/48/000000/pencil-emoji.png> Melakukan kesalahan? Tenang ada akses pengeditan reservasi</small></br>
+<small>
+&nbsp;&nbsp;&nbsp;<img width="3%" src= https://img.icons8.com/external-flat-vinzence-studio/64/000000/external-bin-file-folder-flat-vinzence-studio.png> Menghapus reservasi yang telah dibuat</small></br>
 
-## Learning Laravel
+<small>
+&nbsp;&nbsp;&nbsp;<img width="3%" src= https://img.icons8.com/emoji/48/000000/magnifying-glass-tilted-right-emoji.png> Melihat data-data reservasi </small>
+</details>
+<p>
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+<details open>
+<summary>&nbsp;Dapat diakses dimana?</summary>
+<small>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sesuai namanya TIKET.com dapat dilihat di website TIKET.com dibrowser kesayangan anda. Dapat pula diakses di iOS maupun android.
+</small>
+</details>
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## 𝐀𝐛𝐨𝐮𝐭 
+Project dikerjakan oleh :
+|     NAMA  | NPM |
+| :---: | :---: |
+| Tsani Aflah |  2008107010015 |
 
-## Laravel Sponsors
+Link repository github :
+<p href="https://github.com/TsaniAflah/Tiket.com" target="_blank"> <img width="10%" src="https://img.icons8.com/ultraviolet/40/000000/parallel-tasks.png"/></a>
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+## 𝐋𝐢𝐜𝐞𝐧𝐬𝐞
 
-### Premium Partners
+Laravel adalah framework perangkat lunak open source yang dilisensikan di bawah [MIT license](https://opensource.org/licenses/MIT).
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
