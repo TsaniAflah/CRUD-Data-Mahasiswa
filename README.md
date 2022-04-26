@@ -1,5 +1,3 @@
-
-
 ## 𝐚𝐩𝐚 𝐢𝐭𝐮 <b><big>𝐓𝐈𝐊𝐄𝐓.𝐜𝐨𝐦?</big></b>
 <p align="center"><img width="50%" height="" src="./public/img/Logo.png"/></p>
 <p align="center">Ini adalah sebuah layanan terbaru bagi traveller yang mempermudah melakukan reservasi akomodasi favorit-mu!. TIKET.com merupakan sahabat yang akan membuatmu lupa akan ribetnya proses pemesanan tempat penginapan via online MAUPUN offline. Lihat juga tampilan aplikasi yang keren dan menarik yang semuanya akan anda temukan di TIKET.com solusi perjalanan anda!</p>

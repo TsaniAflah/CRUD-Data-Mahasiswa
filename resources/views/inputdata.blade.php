@@ -1,6 +1,6 @@
 @extends('template')
 @section('title', 'Input Data Reservasi')
-
+<!--Membuat isi input data user-->
 @section('konten')
 <br><img src="/img/coffee1.png"; width="1000"></br>
 <img src="/img/coffee.png" style="float:left"; width="300">  

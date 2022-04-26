@@ -1,6 +1,6 @@
 <!@extends('template')
 @section('title', 'Data Reservasi')
-
+<!--Data reservasi, edit, dan hapus data-->
 @section('konten')
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <!------ Include the above in your HEAD tag ---------->

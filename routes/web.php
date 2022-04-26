@@ -25,12 +25,16 @@ Route::get('/template', function () {
     return view('template');
 });
 
+//Melakukan READ
 Route::get('/tampildata', 'ReservasiController@readdata');
+//Melakukan INPUT
 Route::get('/tambahdata','ReservasiController@input');
+//Melakukan STORING
 Route::post('/reservasi/store', 'ReservasiController@store');
-
+//Melakukan EDIT
 Route::get('/reservasi/edit/{Nama}', 'ReservasiController@edit');
+//Melakukan UPDATE
 Route::post('/reservasi/update', 'ReservasiController@update');
-
+//Melakukan DELETE
 Route::get('/reservasi/hapus/{Nama}', 'ReservasiController@hapus');
 

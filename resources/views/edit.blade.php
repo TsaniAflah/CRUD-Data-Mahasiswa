@@ -1,6 +1,6 @@
 @extends('template')
 @section('title', 'Edit Data Reservasi')
-
+<!--Membuat edit berdasarkan kolom-->
 @section('konten')
 <img src="/img/lamp.png" style="float:right"; width="500">
 <br>
