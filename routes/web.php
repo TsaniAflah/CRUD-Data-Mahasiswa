@@ -28,7 +28,7 @@ Route::get('/template', function () {
 //Melakukan READ
 Route::get('/tampildata', 'ReservasiController@readdata');
 //Melakukan INPUT
-Route::get('/tambahdata','ReservasiController@input');
+Route::get('/tambahdata', 'ReservasiController@input');
 //Melakukan STORING
 Route::post('/reservasi/store', 'ReservasiController@store');
 //Melakukan EDIT
@@ -37,4 +37,3 @@ Route::get('/reservasi/edit/{Nama}', 'ReservasiController@edit');
 Route::post('/reservasi/update', 'ReservasiController@update');
 //Melakukan DELETE
 Route::get('/reservasi/hapus/{Nama}', 'ReservasiController@hapus');
-

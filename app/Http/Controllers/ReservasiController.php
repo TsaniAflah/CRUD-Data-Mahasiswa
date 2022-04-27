@@ -11,9 +11,9 @@ class ReservasiController extends Controller
     {
         // ambil data dari table reservasi
         $reservasi = DB::table('reservasi')->get();
-    
+
         // mengirim ke alamat reservasi untuk ditampilkan data
-        return view('datareservasi',['reservasi'=>$reservasi]);
+        return view('datareservasi', ['reservasi' => $reservasi]);
     }
 
     public function input()
@@ -40,7 +40,7 @@ class ReservasiController extends Controller
         #ambil data reservasi dari nama
         $reservasi = DB::table('reservasi')->where('Nama', $nama)->get();
         #passing data
-        return view('edit',['reservasi' => $reservasi]);
+        return view('edit', ['reservasi' => $reservasi]);
     }
 
     public function update(request $request)
@@ -51,7 +51,7 @@ class ReservasiController extends Controller
             'Kedatangan' => $request->Kedatangan,
             'Keberangkatan' => $request->Keberangkatan,
             'Jenis' => $request->Jenis
-        ]); 
+        ]);
         return redirect('/tampildata');
     }
 
